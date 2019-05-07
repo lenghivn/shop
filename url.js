@@ -1,0 +1,24 @@
+var urls = new Array();
+urls[0] = "https://vnn.life/0.html";
+urls[1] = "https://vnn.life/1.html";
+urls[17] = "https://vnn.life/17.html";
+urls[10] = "https://vnn.life/10.html";
+urls[11] = "https://vnn.life/11.html";
+urls[12] = "https://vnn.life/12.html";
+urls[13] = "https://vnn.life/13.html";
+urls[14] = "https://vnn.life/14.html";
+urls[2] = "https://vnn.life/2.html";
+urls[3] = "https://vnn.life/3.html";
+urls[4] = "https://vnn.life/4.html";
+urls[5] = "https://vnn.life/5.html";
+urls[6] = "https://vnn.life/6.html";
+urls[7] = "https://vnn.life/7.html";
+urls[8] = "https://vnn.life/8.html";
+urls[9] = "https://vnn.life/9.html";
+urls[15] = "https://vnn.life/15.html";
+urls[16] = "https://vnn.life/16.html";
+urls[18] = "https://vnn.life/18.html";
+urls[19] = "https://vnn.life/19.html";
+
+var random = Math.floor(Math.random()*urls.length);
+window.location = urls[random];
